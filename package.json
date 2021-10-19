@@ -9,7 +9,8 @@
     "commit": "cz"
   },
   "lint-staged": {
-    "*.{vue,js,ts,tsx,jsx}": "eslint --fix"
+    "*.{vue,js,ts,tsx,jsx}": "eslint --fix",
+    "*.{vue,scss,css}": "stylelint --fix"
   },
   "dependencies": {
     "vue": "^3.2.16",
