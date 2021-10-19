@@ -1,21 +1,21 @@
 module.exports = {
   env: {
     browser: true,
-    es6: true,
-    node: true,
+    es2021: true,
+    node: true
   },
-  extends: 'airbnb-base',
-  globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly',
-  },
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module',
-  },
-  plugins: [
-    'vue',
+  extends: [
+    'plugin:vue/essential',
+    'airbnb-base',
+    'plugin:prettier/recommended' // 添加 prettier 插件
   ],
-  rules: {
+  parserOptions: {
+    ecmaVersion: 13,
+    parser: '@typescript-eslint/parser',
+    sourceType: 'module'
   },
-};
+  plugins: ['vue', '@typescript-eslint'],
+  rules: {
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }]
+  }
+}
