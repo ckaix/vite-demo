@@ -5,7 +5,8 @@ module.exports = {
     node: true
   },
   extends: [
-    'plugin:vue/essential',
+    // 'plugin:vue/essential',
+    'plugin:vue/vue3-recommended', // 导入vue3的格式建议拓展
     'airbnb-base',
     'plugin:prettier/recommended' // 添加 prettier 插件
   ],
@@ -19,7 +20,6 @@ module.exports = {
     'vue/no-multiple-template-root': 'off',
     'import/no-unresolved': 'off',
     'import/extensions': 'off',
-    'import/no-absolute-path': 'off',
-    'import/no-extraneous-dependencies': 'off'
+    'import/no-absolute-path': 'off'
   }
 }
