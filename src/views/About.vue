@@ -1,5 +1,5 @@
 <template>
-  <div>About</div>
+  <div class="container">About</div>
 </template>
 
 <script lang="ts">
@@ -12,4 +12,11 @@ export default defineComponent({
 })
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+.container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+</style>
