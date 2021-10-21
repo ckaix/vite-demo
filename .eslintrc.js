@@ -20,6 +20,7 @@ module.exports = {
     'vue/no-multiple-template-root': 'off',
     'import/no-unresolved': 'off',
     'import/extensions': 'off',
-    'import/no-absolute-path': 'off'
+    'import/no-absolute-path': 'off',
+    'no-undef': 'off'
   }
 }
