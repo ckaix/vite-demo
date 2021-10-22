@@ -1,11 +1,19 @@
 <template>
-  <div>Home</div>
+  <div>
+    <HelloWorld>
+      <template #header> Header </template>
+    </HelloWorld>
+  </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import HelloWorld from '@/components/HelloWorld.vue'
 
 export default defineComponent({
+  components: {
+    HelloWorld
+  },
   setup() {
     return {}
   }
