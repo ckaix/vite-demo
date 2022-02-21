@@ -22,6 +22,8 @@ module.exports = {
     'import/extensions': 'off',
     'import/no-absolute-path': 'off',
     'import/no-extraneous-dependencies': 'off',
-    'no-undef': 'off'
+    'no-undef': 'off',
+    'no-plusplus': 'off',
+    'import/prefer-default-export': 'off'
   }
 }

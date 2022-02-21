@@ -13,7 +13,9 @@
     "*.{vue,scss,css}": "stylelint --fix"
   },
   "dependencies": {
-    "vue": "^3.2.16"
+    "pinia": "^2.0.11",
+    "vue": "^3.2.16",
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.2.1",
