@@ -19,3 +19,15 @@ export default defineComponent({
   }
 })
 </script>
+
+<style lang="scss" scoped>
+.test {
+  margin: 0;
+  padding: 0;
+  color: red;
+}
+
+::v-deep {
+  color: red;
+}
+</style>
