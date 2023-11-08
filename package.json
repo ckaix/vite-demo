@@ -13,6 +13,8 @@
     "*.{vue,scss,css}": "stylelint --fix"
   },
   "dependencies": {
+    "@better-scroll/core": "^2.5.1",
+    "@better-scroll/wheel": "^2.5.1",
     "pinia": "^2.0.11",
     "vue": "^3.2.16",
     "vue-router": "^4.0.12"
